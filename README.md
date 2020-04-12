@@ -1,3 +1,98 @@
+# GameExplorer - A Video Game Recommender
+Created by - Aditya Gudal
+QA - Aditya Tyagi 
+
+- [Project Charter](#project-charter)
+- [Sprint Plan](#sprint-plan)
+- [Backlog](#backlog)
+- [Icebox](#icebox)
+	
+## Project Charter
+
+### Vision
+This project is an attempt to recommend video games across different platforms to a community of gamers. The idea is to speed up the 
+decision to buy games and increase customer satisfaction by provide interesting recommendations.
+
+### Mission
+This application will prompt users to fill in three or four games that they like and a survey to build their gamer profile. The model will then recommend a list of games based on item based collaborative filtering, hybrid collaborative filtering techniques and clustering techniques.Furthermore, based on user reviews for each game we would create a sentiment for every game. Based on game characteritics and user review sentiments we would create recommendation lists. There will be a list of popular games, similar games and novel games. The idea is to surprise the user as much as possible and provide a great experience.
+
+### Success Criteria
+#### Machine Learning metrics constituiting success:
+ * For traditional recommender techniques, we would look at user-centric metrics such as satisfaction, diversity, novelty and seredipity.We would also look at decision support metrics such as precision and rank based metrics like Reciprocal Rank and n Discount cumulative gain. There are some tradeoffs between all these metrics, but if we want to deliver a great experience we would give higher preference to the user centrics metrics while also keeping the other metrics as high as possible.
+ * For clustering techniques, we would like first determine number of clusters based on Pseudo F1 score, Silhoutte metric and reduction of SSE. Then we would determine how relevant are those cluster profiles based on the question at hand i.e. the user's interest.
+#### Business metrics constituiting success:
+ * If the number of users who downloaded the application are greater than 1,000,000 
+ * If the number of users who use the application are greater than 100,000.
+ * If 60% of the users return to the application(implicit success).
+ * If 50% of the users provide a rating to the application that is positive(explicit success).
+
+## Sprint Plan:
+
+### Initiative 1: Data validation, Collection and Cleaning.
+* Epic 1: Collecting data from various resources.
+  * Story 1: Identify and Shortlist relevant data.
+  * Story 2: Understand the data dictionary from the resources.
+ * Epic 2: Data integration and cleaning.
+   * Story 1: Create a single dataset using structured data(won't be using the sentiment analysis data here)
+   * Story 2: Using Text mining techniques clean text data.
+   * Story 3: Remove data errors, outliers, missing values and transform data.
+  
+### Initiative 2: Preliminary analysis, exploration and model building.
+* Epic 1: Exploratory Data Analysis.
+  * Story 1: Identify top publishers, games with high score and rating.
+  * Story 2: Identify which genre is the most popular and look at overall sales and continent wise sales.
+  * Story 3: Extract semantic nature of reviews based on sentiment analysis.(n-gram models, word2vec models).
+  * Story 4: Create a single unified dataset.
+* Epic 2: Feature Engineering and Selection.
+* Epic 3: Clustering of numerical data.
+  * Story 1: Scale the features and transform if required.
+  * Story 2: Identify clustering technique: K-means, Hierarchial Clustering, GMMs or Mean Isoshift methods.
+  * Story 3: Develop and profile clusters and understand item profiles.
+* Epic 4: Recommender System building.
+  * Story 1: Identifying which algorithm to use - Item-Item collaborative filtering, Item based recommender or truncated SVDs.
+* Epic 5: Recommend Popular, novel and similar games to the users preference.
+* Epic 6: Iterate through the model again and validate.
+
+### Initiative 3: Creation of the Application.
+* Epic 1: Construct SQL databases.
+   * Story 1: SQL Database storing all the data for the relevant to the application.
+   * Story 2: Construct another SQL database that will store gamer profiles and previous recommendations to be used later.
+* Epic 2: Design and build user interface.
+   * Story 1: Iterate through ideas using a wireframe for the landing page.
+   * Story 2: Creating the landing page of application.
+   * Story 3: Design user interface and input layout.
+   * Story 4: Creating a gamer profile survey.
+   * Story 5: Building a gamer motivation chart.
+* Epic 3: Use S3 to store raw data on AWS.
+* Epic 4: Configure Flask App and develop the Flask App.
+
+### Initiative 4: Software testing and application development
+* Epic 1: Deploy the best model after testing which works better.
+* Epic 2: Build unit and logging tests to evaluate functionality.
+* Epic 3: Design and conduct A/B tests to evaluate application versions.
+* Epic 4: Running Application in Docker.
+   * Story 1: Build Image.
+   * Story 2: Run container.
+* Epic 4: Finalize Application.
+
+## Backlog
+* Initiative1->Epic1(Planned)
+* Initiative2->Epic1->Story1(Planned)
+* Initiative2->Epic1->Story2(Planned)
+* Initiative2->Epic1->Story4(Planned)
+* Initiative2->Epic4(Planned)
+* Initiative2->Epic5(Planned)
+* Initiative2->Epic6(Planned)
+
+## Icebox
+* Initiative1->Epic2(Progress)
+* Initiative2->Epic1.Story3(Depends on data collection)
+* Initiative2->Epic2
+* Initiative2->Epic3
+* Initiative2->Epic5
+* Interactive3(Depends on the tools learnt)
+* Interactive4(Depends on the tools learnt)
+
 # MSiA423 Template Repository
 
 <!-- toc -->

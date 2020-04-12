@@ -1,6 +1,6 @@
 # GameExplorer - A Video Game Recommender
-Created by - Aditya Gudal
-QA - Aditya Tyagi 
+
+Created by - Aditya Gudal; QA - Aditya Tyagi 
 
 - [Project Charter](#project-charter)
 - [Sprint Plan](#sprint-plan)
@@ -26,7 +26,7 @@ This application will prompt users to fill in three or four games that they like
  * If 60% of the users return to the application(implicit success).
  * If 50% of the users provide a rating to the application that is positive(explicit success).
 
-## Sprint Plan:
+## Sprint Plan
 
 ### Initiative 1: Data validation, Collection and Cleaning.
 * Epic 1: Collecting data from various resources.

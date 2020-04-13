@@ -90,8 +90,8 @@ This application will prompt users to fill in three or four games that they like
 * Initiative2->Epic2
 * Initiative2->Epic3
 * Initiative2->Epic5
-* Interactive3(Depends on the tools learnt)
-* Interactive4(Depends on the tools learnt)
+* Initiative3(Depends on the tools learnt)
+* Initiative4(Depends on the tools learnt)
 
 # MSiA423 Template Repository
 

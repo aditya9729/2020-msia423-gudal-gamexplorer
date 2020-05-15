@@ -7,8 +7,9 @@ __pycache__/
 .log
 .ipynb_checkpoints/
 
-data/external/.ipynb_checkpoints
-!data/external
+./data/external/.ipynb_checkpoints
+!/data/clean
+!/data/external
 !/data/sample
 config/local
 !.gitkeep

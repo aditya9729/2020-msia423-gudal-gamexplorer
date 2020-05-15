@@ -184,8 +184,9 @@ Data sources - Kaggle static files:
 Steps to follow:
 
    * Download these files and unzip these files till you get comma separated value files.
-   * Store these files within ./data/external/ (this has been done for you).
-   * When you run the `create_db.py` file later it will store data in ./data/clean/
+   * Store these files within ./data/external/.
+   * When you run the `create_db.py` file later, it will store cleaned data in ./data/clean/
+   * Please create the clean and external directory within the data directory.
    * If you want to recreate the file storage(when there is no external and clean directory) -
     Run the following:
    

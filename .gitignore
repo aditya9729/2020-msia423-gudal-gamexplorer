@@ -8,6 +8,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 
+data/*
+!data/clean/
 !data/sample/
 !data/external/
 data/games.db

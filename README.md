@@ -309,7 +309,6 @@ Go to the root directory and Run the following:
   * Build a docker image with tag games:
   
   
-     
      docker build -t games .
 
    * Run the docker container:
@@ -332,6 +331,8 @@ This should store your data into the S3 bucket.
 To create the database in the location configured in `config.py` with tables customer,metacritic,sales and steam, run: 
 
 To create a database locally use make sure to set `local=True` in `config.py`:
+
+Note `create_db.py` depends on `src/clean_data.py` `src/helpers.py` and `src/game_database.py`
 
 Go to the root directory and run:
 
@@ -357,7 +358,7 @@ engine_string='sqlite:///data/games.db'
 
 Make sure you are connected to northwestern vpn
 
-Go to step 2 and 3 and check environment variables and requirement.
+Go to step 3 and 4 and check environment variables and requirement.
 
  Go to the config directory and in `config.py` change local variable:
     

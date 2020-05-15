@@ -12,8 +12,9 @@ data/*
 !data/clean/
 !data/sample/
 !data/external/
-data/games.db
+local_data/games.db
 config/local
 !.gitkeep
 notebooks/develop/.ipynb_checkpoints
 local/
+local_data/

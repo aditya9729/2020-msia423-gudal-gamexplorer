@@ -185,6 +185,7 @@ Steps to follow:
 
    * Download these files and unzip these files till you get comma separated value files.
    * Store these files within ./data/external/ (this has been done for you).
+   * When you run the `create_db.py` file later it will store data in ./data/clean/
    * If you want to recreate the file storage(when there is no external and clean directory) -
     Run the following:
    
@@ -234,6 +235,7 @@ or use
 * Set MYSQL_PASSWORD to the "master password" that you used to create the database server.
 * Set MYSQL_HOST to be the RDS instance endpoint from the console
 * Set MYSQL_HOST to be 3306
+*SET DATABASE_NAME if required
 
 Set up using the following within .mysqlconfig(please remove the caret '<' '>' signs:
 
@@ -241,6 +243,8 @@ Set up using the following within .mysqlconfig(please remove the caret '<' '>' s
     export MYSQL_PASSWORD=<YOUR_PASSWORD>
     export MYSQL_HOST=<PASTE_YOUR_HOST_HERE>
     export MYSQL_PORT=<3306>
+    export DATABASE_NAME=msia423asg5718
+
 
 Set the environment variables in your ~/.bashrc
 
@@ -262,7 +266,6 @@ Note you may find 'source .mysqlconfig' already, leave it untouched.
     export AWS_ACCESS_KEY=xxxx
     export AWS_SECRET_KEY=xxxxx
     source .mysqlconfig
-    export DATABASE_NAME=xxxxxx
 Don't forget to source:
 
     source ~/.bashrc
@@ -358,7 +361,7 @@ engine_string='sqlite:///data/games.db'
 
 Make sure you are connected to northwestern vpn
 
-Go to step 3 and 4 and check environment variables and requirement.
+Go to step 3 and 4 and check environment variables and requirement.(check database name)
 
  Go to the config directory and in `config.py` change local variable:
     

@@ -184,8 +184,9 @@ Data sources - Kaggle static files:
 Steps to follow:
 
    * Download these files and unzip these files till you get comma separated value files.
-   * Store these files within ./data/external/ (this has been done for you).
-   * When you run the `create_db.py` file later it will store data in ./data/clean/
+   * Store these files within ./data/external/.
+   * When you run the `create_db.py` file later, it will store cleaned data in ./data/clean/
+   * Please create the clean and external directory within the data directory.
    * If you want to recreate the file storage(when there is no external and clean directory) -
     Run the following:
    
@@ -235,7 +236,7 @@ or use
 * Set MYSQL_PASSWORD to the "master password" that you used to create the database server.
 * Set MYSQL_HOST to be the RDS instance endpoint from the console
 * Set MYSQL_HOST to be 3306
-*SET DATABASE_NAME if required
+* SET DATABASE_NAME as the name of your rds instance if required
 
 Set up using the following within .mysqlconfig(please remove the caret '<' '>' signs:
 
@@ -256,7 +257,6 @@ PLEASE NOTE: VERIFY THAT YOU ARE ON THE NORTHWESTERN VPN BEFORE YOU CONTINUE ON.
 
 * SET AWS_ACCESS_KEY with your aws access key.
 * SET AWS_SECRET_KEY with you aws secret key.
-* SET DATABASE_NAME as the database name of your rds instance.
 
 Run the following commands and replace xxxx with keys etc.
 

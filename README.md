@@ -18,7 +18,7 @@ decision to buy games and increase customer satisfaction by provide interesting 
 ### Mission
 This application will prompt users to fill in their favorite game that they like .The model will then recommend 10 popular games, top 10 games based on critic ratings, top 10 games based on sales and user similar games based on item based collaborative filtering, hybrid collaborative filtering techniques and clustering techniques.Furthermore. Based on the user's favorite game and the recommendations, a gamer profile will be made. The idea is to surprise the user as much as possible and provide a great experience.
 
-####Data sources:
+#### Data sources:
    * vgsales.csv link:https://www.kaggle.com/gregorut/videogamesales
    * steam-200k.csv link:https://www.kaggle.com/tamber/steam-video-games
    * metacritic_games.csv link:https://www.kaggle.com/skateddu/metacritic-games-stats-20112019

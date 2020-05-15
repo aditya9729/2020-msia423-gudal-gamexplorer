@@ -206,18 +206,18 @@ You may skip this part but this may be helpful:
 
 Create your own virtual environment.
 
-    conda create --name video_games_recommender
+    conda create --name video_game_recommender
     
 or use 
     
-    virtualenv video_games_recommender 
+    virtualenv video_game_recommender 
 
 Activate virtual environment.
 
-    conda activate video_games_recommender
+    conda activate video_game_recommender
 or use:
     
-    source video_games_recommender
+    source video_game_recommender
     
 Note: If you are in a virtual or base environment run the following:
 
@@ -283,7 +283,7 @@ Go to config.py in the config directory:
 
     cd config/ 
     
- Within `config.py` Please change the following bucket name your own bucket name.: 
+ Within `config.py` Please change the following bucket name with your own bucket name.: 
  
     S3_BUCKET_NAME = 'nw-adityagudal-s3'
     
@@ -308,8 +308,9 @@ Go to the root directory and Run the following:
 
   * Build a docker image with tag games:
   
-
-    docker build -t games .
+  
+     
+     docker build -t games .
 
    * Run the docker container:
    
@@ -417,6 +418,9 @@ To exit mysql:
     
     exit;
  
+ To exit environment if in one:
+ 
+    deactivate video_game_recommender
 ----------------------------------------------------------------------------------
 
 

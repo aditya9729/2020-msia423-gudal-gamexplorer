@@ -171,11 +171,11 @@ This application will prompt users to fill in their favorite game that they like
 ```
 
 ## Running the app
-###1.Clone this repository-development
+### 1.Clone this repository-development
 Run the following command:
 
     git clone https://github.com/aditya9729/2020-msia423-gudal-gamexplorer.git
-###2. Data Acquisition
+### 2.Data Acquisition
 Data sources - Kaggle static files:
    * vgsales.csv link:https://www.kaggle.com/gregorut/videogamesales
    * steam-200k.csv link:https://www.kaggle.com/tamber/steam-video-games
@@ -274,11 +274,6 @@ Open config.env file
     nano config.env
 Set credentials - replace the xxx here too :
 
-    MYSQL_USER=xxxxx
-    MYSQL_PASSWORD=xxxxxxx
-    MYSQL_HOST=xxxxxxx
-    MYSQL_PORT=xxxxxxxxxxx
-    DATABASE_NAME=xxxxxxxxxxxxxx
     AWS_SECRET_KEY=xxxxxxxxxxxxxxxxx
     AWS_ACCESS_KEY=xxxxxxxxxx
 

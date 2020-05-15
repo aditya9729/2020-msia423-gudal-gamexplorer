@@ -8,9 +8,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 ./data/external/.ipynb_checkpoints
-!/data/clean
-!/data/external
-!/data/sample
 config/local
 !.gitkeep
 notebooks/develop/.ipynb_checkpoints

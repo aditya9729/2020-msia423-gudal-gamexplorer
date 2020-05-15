@@ -7,8 +7,7 @@ __pycache__/
 .log
 .ipynb_checkpoints/
 
-local_data/
-local_data/games.db
+data/external/.ipynb_checkpoints
 config/local
 !.gitkeep
 notebooks/develop/.ipynb_checkpoints

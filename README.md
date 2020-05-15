@@ -236,7 +236,7 @@ or use
 * Set MYSQL_PASSWORD to the "master password" that you used to create the database server.
 * Set MYSQL_HOST to be the RDS instance endpoint from the console
 * Set MYSQL_HOST to be 3306
-*SET DATABASE_NAME if required
+* SET DATABASE_NAME as the name of your rds instance if required
 
 Set up using the following within .mysqlconfig(please remove the caret '<' '>' signs:
 
@@ -257,7 +257,6 @@ PLEASE NOTE: VERIFY THAT YOU ARE ON THE NORTHWESTERN VPN BEFORE YOU CONTINUE ON.
 
 * SET AWS_ACCESS_KEY with your aws access key.
 * SET AWS_SECRET_KEY with you aws secret key.
-* SET DATABASE_NAME as the database name of your rds instance.
 
 Run the following commands and replace xxxx with keys etc.
 

@@ -376,10 +376,14 @@ Go to step 3 and 4 and check environment variables and requirement.(check databa
  
  Your data is now in the database, with the schema defined, and the raw data has also been added to your S3 bucket! If you've used an RDS instance, you can verify that things have worked as expected by using the MySQL client. Run the `run_mysql_client.sh` script that allows connection to your SQL database:
  
- In the root directory run:
+ In the root directory run (for mac users):
  
     sh run_mysql_client.sh
     
+ For windows in git bash run:
+ 	
+	winpty sh run_mysql_client.sh
+
  You can query the customer, steam, metacritic and sales table in the `msia423asg5718` database as follows:
     
     use msia423asg5718;

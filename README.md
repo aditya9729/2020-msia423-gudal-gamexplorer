@@ -175,6 +175,11 @@ This application will prompt users to fill in their favorite game that they like
 Run the following command:
 
     git clone https://github.com/aditya9729/2020-msia423-gudal-gamexplorer.git
+    
+Once cloned run to switch to the development branch:
+	
+	git checkout development
+
 ### 2.Data Acquisition
 Data sources - Kaggle static files:
    * vgsales.csv link:https://www.kaggle.com/gregorut/videogamesales
@@ -187,6 +192,7 @@ Steps to follow:
    * Store these files within ./data/external/.
    * When you run the `create_db.py` file later, it will store cleaned data in ./data/clean/
    * Please create the clean and external directory within the data directory.
+   * It should be ./data/clean and ./data/external
    * If you want to recreate the file storage(when there is no external and clean directory) -
     Run the following:
    

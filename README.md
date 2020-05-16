@@ -212,8 +212,9 @@ Make sure you are in the root directory.
 
 You may skip this part but this may be helpful:
 
+Part1 is to create environment/ you can also run requirements.txt separately.  
 Go to part 2 to set up variables for MYSQL
-Not required
+
 Part 1: Note: pip may not run within conda at times - Go to part 2 to set up variables for MYSQL
 requirements.txt may not run as pip may not be installed within conda(path not set).
 

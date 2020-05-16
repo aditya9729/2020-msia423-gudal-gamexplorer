@@ -212,24 +212,31 @@ Make sure you are in the root directory.
 
 You may skip this part but this may be helpful:
 
+Go to part 2 to set up variables for MYSQL
+Not required
+Part 1: Note: pip may not run within conda at times - Go to part 2 to set up variables for MYSQL
+requirements.txt may not run as pip may not be installed within conda(path not set).
+
 Create your own virtual environment.
 
-    conda create --name video_game_recommender
+    conda create --name video_game pip
     
 or use 
     
-    virtualenv video_game_recommender 
+    virtualenv video_game 
 
 Activate virtual environment.
 
-    conda activate video_game_recommender
+    conda activate video_game
 or use:
     
-    source video_game_recommender
+    source video_game
     
 Note: If you are in a virtual or base environment run the following:
 
     pip install -r requirements.txt
+
+Part2:
 
 Edit your mysql config file accordingly
 
@@ -241,7 +248,7 @@ or use
 * Set MYSQL_USER to the "master username" that you used to create the database server.
 * Set MYSQL_PASSWORD to the "master password" that you used to create the database server.
 * Set MYSQL_HOST to be the RDS instance endpoint from the console
-* Set MYSQL_HOST to be 3306
+* Set MYSQL_PORT to be 3306
 * SET DATABASE_NAME as the name of your rds instance if required
 
 Set up using the following within .mysqlconfig(please remove the caret '<' '>' signs:

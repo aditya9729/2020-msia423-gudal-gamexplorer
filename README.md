@@ -325,12 +325,11 @@ Go to the root directory and Run the following:
 
   * Build a docker image with tag games:
   
-  
-     docker build -t games .
+  		docker build -t games .
 
    * Run the docker container:
    
-    docker run -it --env-file=config/config.env games run.py
+    docker run --env-file=config/config.env games run.py
 
     
 Note this `run.py` depends on `src/store_data_in_s3.py`

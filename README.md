@@ -264,8 +264,8 @@ Step 2: Run the tests
 Two sets of environment variables are required to run the model pipeline and the web application using an RDS database:
 
 AWS credentials for the model pipeline, to upload / download files from S3:
-AWS_SECRET_ACCESS_KEY
 AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
 
 MySQL credentials for the web application, to store user data in an RDS database:
 MYSQL_USER
@@ -302,8 +302,8 @@ Copy the code below into the config.env file and replace the bracketed <> fields
 
 #### AWS credentials
 
-	AWS_SECRET_ACCESS_KEY=<your-AWS-secret-access-key>
 	AWS_ACCESS_KEY_ID=<your-AWS-access-key-id>
+	AWS_SECRET_ACCESS_KEY=<your-AWS-secret-access-key>
 
 #### MySQL credentials
 
@@ -332,6 +332,7 @@ The default database name is customersdb . This default can be modified in the c
                                                                                   db=database)
    
 Local SQLite
+
 To change the default local file path where the SQLite database is created, modify DATABASE_PATH variable in the config.py file. for populating change SQLALCHEMY_DATABASE_URI.
 where HOME is the root of the directory. The DATBASE_PATH should be an absolute path, not a relative path.
 
@@ -339,14 +340,16 @@ where HOME is the root of the directory. The DATBASE_PATH should be an absolute 
 To change the default S3 bucket for which files are uploaded and downloaded from, modify the S3_BUCKET variable in config.py. The S3 bucket specification can also be passed in as a command line argument (see Ingest data from source and upload to S3 bucket)
 
 ### Running Model Pipeline Individual Steps
+
 All scripts should be executed by running python run.py <arg> in the root of the repository, where <arg> specifies the step in the model pipeline to execute. Details on the pipeline and arguments to pass are below.
 
 1. Ingest data from source and upload to S3 bucket
+
 To import data from the source URL (source here), run:
 
-	python run_pipeline.py acquire_from_api --config=config/config.yaml
+		python run_pipeline.py acquire_from_api --config=config/config.yaml
 	
-	python run_pipeline.py write_to_s3 --config=config/config.yaml
+		python run_pipeline.py write_to_s3 --config=config/config.yaml
 	
 2. Fetch data from S3, run:
 		
@@ -354,10 +357,11 @@ To import data from the source URL (source here), run:
 		
 The data will be games_data.pkl stored in the /data/external folder
 
-2. Clean and featurize raw data
+3. Clean and featurize raw data
+
 To clean and pre-process, featurize the raw data file, run:
 
-	python run_pipeline.py featurize --config=config/config.yaml
+		python run_pipeline.py featurize --config=config/config.yaml
 	
 The clean data features numpy array and intermediate required data will by default be saved locally in the /data/external folder.
 
@@ -367,9 +371,11 @@ Optional argument flags / configurations
    * --output: to specify the file path to store output to.
 
 3. Train model
+
 To created the trained model objects, model artifacts (e.g., encoders, scalers), and results, run:
 
 	python run_pipeline.py train --config=config/config.yaml
+	
 The trained model object, encoder, and scalers PKL files will by default be saved locally in the models/ folder.
 
 Optional argument flags / configurations
@@ -378,13 +384,16 @@ Optional argument flags / configurations
    * --output: to specify the file path where the model artifacts are output -joblib file. Must be a folder path and not file name.
 
 4.Score model 
+
 To score model and store metrics run:
 
 	python run_pipeline.py score --config=config/config.yaml
 
 	
 ### Tests (Optional)
+
 within tests you have 
+
 * test_model that conatins a model artifact(joblib file) to test on.
 * test_functions - helpers for testing basically all the functions from src.
 * test_datasets - data required(from data/external/), in the code a sample is used

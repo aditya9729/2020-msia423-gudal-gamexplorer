@@ -349,7 +349,7 @@ where HOME is the root of the directory. The DATBASE_PATH should be an absolute 
 3. Configure S3 bucket
 To change the default S3 bucket for which files are uploaded and downloaded from, modify the S3_BUCKET variable in config.py. The S3 bucket specification can also be passed in as a command line argument (see Ingest data from source and upload to S3 bucket)
 
-### Running Model Pipeline Individual Steps
+### Running Model Pipeline Individual Steps(optional)
 
 All scripts should be executed by running python run.py <arg> in the root of the repository, where <arg> specifies the step in the model pipeline to execute. Details on the pipeline and arguments to pass are below.
 
@@ -399,8 +399,28 @@ To score model and store metrics run:
 
 	python run_pipeline.py score --config=config/config.yaml
 
+
+### Running individual pipeline steps using docker(optional):
+
+Build the same image as above (image tag is games)
+
+Acquire from S3:
+
+	docker run -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY --mount type=bind,source=$(pwd),target=/app games data/external/games_data.pkl
 	
-### Tests (Optional)
+Featurize and clean data:
+
+	docker run --mount type=bind,source=$(pwd),target=/app/ games data/external/intermediate.pkl data/external/features.npy
+	
+Train model and save artifacts:
+	
+	docker run --mount type=bind,source=$(pwd),target=/app/ games data/external/train.npy data/external/test.npy models/als_model.joblib
+	
+Score model and evaluate:
+
+	docker run --mount type=bind,source=$(pwd),target=/app/ games models/model_metrics.txt
+
+### Tests (optional)
 
 within tests you have 
 
@@ -412,7 +432,7 @@ In the test folder run:
 
 	pytest run_tests.py
 	
-### Running MySQL in Command Line (Optional)
+### Running MySQL in Command Line (optional)
 
 #### Note make sure you are on the Northwestern VPN
 Once the RDS table has been created, you can access the database via MySQL in the command line.

@@ -175,6 +175,11 @@ This application will prompt users to fill in their favorite game that they like
 Run the following command:
 
     git clone https://github.com/aditya9729/2020-msia423-gudal-gamexplorer.git
+    
+Once cloned run to switch to the development branch:
+	
+	git checkout development
+
 ### 2.Data Acquisition
 Data sources - Kaggle static files:
    * vgsales.csv link:https://www.kaggle.com/gregorut/videogamesales
@@ -187,6 +192,7 @@ Steps to follow:
    * Store these files within ./data/external/.
    * When you run the `create_db.py` file later, it will store cleaned data in ./data/clean/
    * Please create the clean and external directory within the data directory.
+   * It should be ./data/clean and ./data/external
    * If you want to recreate the file storage(when there is no external and clean directory) -
     Run the following:
    
@@ -206,24 +212,32 @@ Make sure you are in the root directory.
 
 You may skip this part but this may be helpful:
 
+Part1 is to create environment/ you can also run requirements.txt separately.  
+Go to part 2 to set up variables for MYSQL
+
+Part 1: Note: pip may not run within conda at times - Go to part 2 to set up variables for MYSQL
+requirements.txt may not run as pip may not be installed within conda(path not set).
+
 Create your own virtual environment.
 
-    conda create --name video_game_recommender
+    conda create --name video_game pip
     
 or use 
     
-    virtualenv video_game_recommender 
+    virtualenv video_game 
 
 Activate virtual environment.
 
-    conda activate video_game_recommender
+    conda activate video_game
 or use:
     
-    source video_game_recommender
+    source video_game
     
 Note: If you are in a virtual or base environment run the following:
 
     pip install -r requirements.txt
+
+Part2:
 
 Edit your mysql config file accordingly
 
@@ -235,7 +249,7 @@ or use
 * Set MYSQL_USER to the "master username" that you used to create the database server.
 * Set MYSQL_PASSWORD to the "master password" that you used to create the database server.
 * Set MYSQL_HOST to be the RDS instance endpoint from the console
-* Set MYSQL_HOST to be 3306
+* Set MYSQL_PORT to be 3306
 * SET DATABASE_NAME as the name of your rds instance if required
 
 Set up using the following within .mysqlconfig(please remove the caret '<' '>' signs:
@@ -311,12 +325,11 @@ Go to the root directory and Run the following:
 
   * Build a docker image with tag games:
   
-  
-     docker build -t games .
+  		docker build -t games .
 
    * Run the docker container:
    
-    docker run -it --env-file=config/config.env games run.py
+    docker run --env-file=config/config.env games run.py
 
     
 Note this `run.py` depends on `src/store_data_in_s3.py`
@@ -376,10 +389,14 @@ Go to step 3 and 4 and check environment variables and requirement.(check databa
  
  Your data is now in the database, with the schema defined, and the raw data has also been added to your S3 bucket! If you've used an RDS instance, you can verify that things have worked as expected by using the MySQL client. Run the `run_mysql_client.sh` script that allows connection to your SQL database:
  
- In the root directory run:
+ In the root directory run (for mac users):
  
     sh run_mysql_client.sh
     
+ For windows in git bash run:
+ 	
+	winpty sh run_mysql_client.sh
+
  You can query the customer, steam, metacritic and sales table in the `msia423asg5718` database as follows:
     
     use msia423asg5718;

@@ -1,0 +1,72 @@
+acquire_from_api:
+  acquire_data:
+      source_url: https://api.rawg.io/api/games
+      num_pages: 82
+      page_size_total: 80
+  data_dictionary:
+      num_pages: 82
+      page_size_extract: 40
+      column_names:
+        - name
+        - released
+        - background_image
+        - rating
+        - playtime
+        - ratings_count
+        - suggestions_count
+        - genres
+        - parent_platforms
+        - stores
+
+acquire_from_s3:
+  bucket_name: nw-adityagudal-s3
+  s3_file_name: games_data.pkl
+  save_path: data/external/games_data.pkl
+
+featurize:
+  columns_to_encode:
+    - genres
+    - parent_platforms
+  columns_to_drop:
+    - name
+    - genres
+    - released
+    - background_image
+    - parent_platforms
+    - stores
+
+featurize_paths:
+  DATA_PATH: data/external/games_data.pkl
+  SAVE_INTERMEDIATE_PATH: data/external/intermediate.pkl
+  SAVE_FEATURES_PATH: data/external/features.npy
+
+train_model:
+  train_test_split:
+    size: 10
+    seed: 420
+  train_model:
+    alpha: 15
+    factors: 25
+    shrinkage: 0.1
+    iterations: 50
+  file_paths:
+    FEATURES_PATH: data/external/features.npy
+    SAVE_TRAIN_PATH: data/external/train.npy
+    SAVE_TEST_PATH: data/external/test.npy
+    SAVE_MODEL_PATH: models/als_model.joblib
+
+score_model:
+  file_paths:
+    SAVE_TEST_PATH: data/external/test.npy
+    SAVE_MODEL_PATH: models/als_model.joblib
+    MODEL_METRICS_PATH: models/model_metrics.txt
+
+
+
+
+
+
+
+
+
+

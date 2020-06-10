@@ -1,0 +1,748 @@
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:columns_to_encode is not a list instance
+INFO:test.test_featurize:Testing encode_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Data is standardized
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:columns_to_encode is not a list instance
+INFO:test.test_featurize:Testing encode_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Data is standardized
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:columns_to_encode is not a list instance
+INFO:test.test_featurize:Testing encode_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Data is standardized
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_featurize:Testing scale_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:columns_to_encode is not a list instance
+INFO:test.test_featurize:Testing encode_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Data is standardized
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_featurize:Testing scale_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:columns_to_encode is not a list instance
+INFO:test.test_featurize:Testing encode_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Data is standardized
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_featurize:Testing scale_features done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+ERROR:test.test_functions.test_train_model_helpers:feature_array is not a numpy array
+INFO:test.test_train_model:Testing of compute similarity done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+ERROR:test.test_functions.test_train_model_helpers:utility is not a numpy array
+INFO:test.test_train_model:Testing of train_test_split done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+WARNING:root:Intel MKL BLAS detected. Its highly recommend to set the environment variable 'export MKL_NUM_THREADS=1' to disable its internal multithreading
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:columns_to_encode is not a list instance
+INFO:test.test_featurize:Testing encode_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Data is standardized
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_featurize:Testing scale_features done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+ERROR:test.test_functions.test_train_model_helpers:feature_array is not a numpy array
+INFO:test.test_train_model:Testing of compute similarity done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+ERROR:test.test_functions.test_train_model_helpers:utility is not a numpy array
+INFO:test.test_train_model:Testing of train_test_split done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+WARNING:root:Intel MKL BLAS detected. Its highly recommend to set the environment variable 'export MKL_NUM_THREADS=1' to disable its internal multithreading
+INFO:test.test_functions.test_train_model_helpers:Model training complete
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+ERROR:test.test_functions.test_train_model_helpers:train is not a numpy array instance
+INFO:test.test_train_model:Testing train_model done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:genres is not a list instance
+INFO:test.test_featurize:Testing get_genres done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:platforms is not a list instance
+INFO:test.test_featurize:Testing get_platforms done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted stores dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:stores is not a list instance
+INFO:test.test_featurize:Testing get_stores done
+ERROR:test.test_functions.test_featurize_helpers:title is not a string instance
+INFO:test.test_featurize:Testing clean_game_titles done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+ERROR:test.test_functions.test_featurize_helpers:columns_to_encode is not a list instance
+INFO:test.test_featurize:Testing encode_features done
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_functions.test_featurize_helpers:Data is standardized
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted genre dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Successfully converted platforms dictionary into a list
+INFO:test.test_functions.test_featurize_helpers:Featurized data is created
+INFO:test.test_featurize:Testing scale_features done
+ERROR:test.test_functions.test_score_model_helpers:Model is not from the implicit library
+INFO:test.test_score_model:Testing of score_model done
+ERROR:test.test_functions.test_score_model_helpers:pred is not a numpy array instance
+INFO:test.test_score_model:Testing of evaluate_model done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+ERROR:test.test_functions.test_train_model_helpers:feature_array is not a numpy array
+INFO:test.test_train_model:Testing of compute similarity done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+ERROR:test.test_functions.test_train_model_helpers:utility is not a numpy array
+INFO:test.test_train_model:Testing of train_test_split done
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+WARNING:root:Intel MKL BLAS detected. Its highly recommend to set the environment variable 'export MKL_NUM_THREADS=1' to disable its internal multithreading
+INFO:test.test_functions.test_train_model_helpers:Model training complete
+INFO:test.test_functions.test_train_model_helpers:Cosine similarity of features found
+INFO:test.test_functions.test_train_model_helpers:Train- Test split successful
+ERROR:test.test_functions.test_train_model_helpers:train is not a numpy array instance
+INFO:test.test_train_model:Testing train_model done

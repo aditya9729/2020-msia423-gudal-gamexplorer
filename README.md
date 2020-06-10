@@ -230,7 +230,7 @@ First please put in SQLALCHEMY_DATABASE_URI as an environment variable for local
 
 For RDS database use: {dialect}://{user}:{pw}@{host}:{port}/{db} fill in the details here and remove { }
 
-	docker run -e SQLALCHEMY_DATABASE_URI -p 5000:5000 games app
+	docker run -e SQLALCHEMY_DATABASE_URI --mount type=bind,source=$(pwd),target=/app/ -p 5000:5000 games app
 	
 You should now be able to access the app at http://0.0.0.0:5000/ in your browser.
 

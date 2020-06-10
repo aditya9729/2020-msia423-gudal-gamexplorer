@@ -331,7 +331,6 @@ The default database name is customersdb . This default can be modified in the c
 	    user=DB_USER,pw=DB_PW, host=DB_HOST, port=DB_PORT,db=DATABASE)
    
 Local SQLite
-
 To change the default local file path where the SQLite database is created, modify DATABASE_PATH variable in the config.py file. for populating change SQLALCHEMY_DATABASE_URI.
 where HOME is the root of the directory. The DATBASE_PATH should be an absolute path, not a relative path.
 
@@ -384,9 +383,9 @@ To score model and store metrics run:
 	
 ### Tests (Optional)
 within tests you have 
-	* test_model that conatins a model artifact(joblib file) to test on.
-	* test_functions - helpers for testing basically all the functions from src.
-	* test_datasets - data required(from data/external/), in the code a sample is used
+* test_model that conatins a model artifact(joblib file) to test on.
+* test_functions - helpers for testing basically all the functions from src.
+* test_datasets - data required(from data/external/), in the code a sample is used
 
 In the test folder run:
 

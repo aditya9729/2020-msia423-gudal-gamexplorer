@@ -173,6 +173,16 @@ constituiting success:
 ```
 
 ## Running the Model Pipeline
+
+### Note: Please create the external directory within the data directory before running any of the below commands:
+From root directory go to data using:
+
+	cd data
+
+then make a directory within data called external:
+
+	mkdir external
+	
 ### Note :Please be connected to the northwestern VPN throughout if possible(for RDS instance atleast)
 Creates all artifacts needed to support the web application.
 

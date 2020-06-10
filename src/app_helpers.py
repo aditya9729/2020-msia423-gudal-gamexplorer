@@ -20,8 +20,7 @@ def fuzzy_matching(hashmap, fav_game):
     return match_tuple[0][1]
 
 def get_recommendations(title,data,model,hashmap):
-    """
-
+    """Gives 10 recommendations from model's most similar findings
     :param title `str`: game name
     :param data `dataframe`: dataframe to get names from
     :param model `implicit.als`: ALS model

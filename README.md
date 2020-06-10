@@ -20,7 +20,7 @@ This application will prompt users to fill in their favorite game that they like
 
 #### Data sources:
    * RAWG Database:One of the largest video game databases, API : https://rawg.io/apidocs 
-   	Test your endpoint here: https://rapidapi.com/accujazz/api/rawg-video-games-database?endpoint=apiendpoint_e4e2766f-1422-4b88-bd10-22acdb7c9a16
+   * Test your endpoint here: https://rapidapi.com/accujazz/api/rawg-video-games-database?endpoint=apiendpoint_e4e2766f-1422-4b88-bd10-22acdb7c9a16
  
 ### Success Criteria
 #### Machine Learning metrics constituiting success:

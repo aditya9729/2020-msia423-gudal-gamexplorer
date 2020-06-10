@@ -267,6 +267,7 @@ Two sets of environment variables are required to run the model pipeline and the
 AWS credentials for the model pipeline, to upload / download files from S3:
 AWS_SECRET_ACCESS_KEY
 AWS_ACCESS_KEY_ID
+
 MySQL credentials for the web application, to store user data in an RDS database:
 MYSQL_USER
 MYSQL_PASSWORD
@@ -282,11 +283,11 @@ Ensure AWS credentials are in the ~/.aws/credentials file.
 
 Export MySQL credentials by running the following commands (replacing brackets <> with your own credentials):
 
-export MYSQL_USER=<your-MySQL-user>
-export MYSQL_PASSWORD=<your-MYSQL-password>
-export MYSQL_HOST=<your-MySQL-host>
-export MYSQL_PORT=<your-MySQL-port>
-export MYSQL_DATABASE=your-MySQL-database>
+	export MYSQL_USER=<your-MySQL-user>
+	export MYSQL_PASSWORD=<your-MYSQL-password>
+	export MYSQL_HOST=<your-MySQL-host>
+	export MYSQL_PORT=<your-MySQL-port>
+	export MYSQL_DATABASE=your-MySQL-database>
 	
 Running in Docker
 
@@ -301,16 +302,17 @@ To create the config.env file, from the root directory, run:
 Copy the code below into the config.env file and replace the bracketed <> fields with your credentials):
 
 #### AWS credentials
-AWS_SECRET_ACCESS_KEY=<your-AWS-secret-access-key>
-AWS_ACCESS_KEY_ID=<your-AWS-access-key-id>
+
+	AWS_SECRET_ACCESS_KEY=<your-AWS-secret-access-key>
+	AWS_ACCESS_KEY_ID=<your-AWS-access-key-id>
 
 #### MySQL credentials
 
-MYSQL_USER=<your-MySQL-user>
-MYSQL_PASSWORD=<your-MYSQL-password>
-MYSQL_HOST=<your-MySQL-host>
-MYSQL_PORT=<your-MySQL-port>
-MYSQL_DATABASE=<your-MySQL-database-name>
+	MYSQL_USER=<your-MySQL-user>
+	MYSQL_PASSWORD=<your-MYSQL-password>
+	MYSQL_HOST=<your-MySQL-host>
+	MYSQL_PORT=<your-MySQL-port>
+	MYSQL_DATABASE=<your-MySQL-database-name>
 	
 Then, add --env-file=config/config.env after the applicable docker run statement to export the environment variables Docker.
 

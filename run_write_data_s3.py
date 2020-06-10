@@ -14,8 +14,8 @@ if __name__=='__main__':
     yaml_config = yaml.safe_load(open(CONFIGURATION_PATH))
     # S3 configurations
     bucket_name = yaml_config['acquire_from_s3']['bucket_name']
-    access_key = config.S3_ACCESS_KEY_ID
-    secret_key = config.S3_SECRET_ACCESS_KEY
+    access_key = config.AWS_ACCESS_KEY_ID
+    secret_key = config.AWS_SECRET_ACCESS_KEY
     folder_path = config.RAW_DATA_FOLDER
     raw_files = config.RAW_DATA_FILENAMES
 

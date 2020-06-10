@@ -101,8 +101,7 @@ def get_platforms(platforms):
     return platforms_list
 
 def clean_game_titles(title):
-    """
-    Removes extra whitespace and quotes
+    """Removes extra whitespace and quotes
     :param title `str`: game name
     :return: cleaned game name
     """

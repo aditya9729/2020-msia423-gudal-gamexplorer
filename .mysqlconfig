@@ -1,5 +1,0 @@
-export MYSQL_USER=admin
-export MYSQL_PASSWORD=RAG3INFiNiTY
-export MYSQL_HOST=msia423-asg5718.cp5fav9w2a2w.us-east-1.rds.amazonaws.com
-export MYSQL_PORT=3306
-export MYSQL_DATABASE=msia423asg5718

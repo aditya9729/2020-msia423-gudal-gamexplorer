@@ -109,7 +109,7 @@ if __name__=='__main__':
             sys.exit('exit')
 
 
-        features_array, saved_data = featurize(data, **config.get('featurize'))
+        features_array, saved_data = featurize(data, **yaml_config.get('featurize'))
 
         saved_data.to_pickle(SAVE_INTERMEDIATE_PATH)
         logger.info('Saved intermediate data to be used for recommendations')

@@ -1,4 +1,4 @@
-# GameExplorer - A Video Game Recommender
+# The GamExplorer - A Video Game Recommender
 
 Created by - Aditya Gudal 
 
@@ -13,26 +13,25 @@ QA - Aditya Tyagi
 
 ### Vision
 This project is an attempt to recommend video games across different platforms to a community of gamers. The idea is to speed up the 
-decision to buy games and increase customer satisfaction by provide interesting recommendations.
+decision to buy games and increase customer satisfaction by provide interesting recommendations. Also, it is a great way to bring the inner gamer out during quarantine.
 
 ### Mission
-This application will prompt users to fill in their favorite game that they like .The model will then recommend 10 popular games, top 10 games based on critic ratings, top 10 games based on sales and user similar games based on item based collaborative filtering, hybrid collaborative filtering techniques and clustering techniques.Furthermore. Based on the user's favorite game and the recommendations, a gamer profile will be made. The idea is to surprise the user as much as possible and provide a great experience.
+This application will prompt users to fill in their favorite game that they like .The model will then recommend 10 games based on models from item based collaborative filtering, hybrid collaborative filtering techniques and clustering techniques.Furthermore. Based on the user's favorite game and the recommendations, a gamer profile will be made(after collecting their data separately). The idea is to surprise the user as much as possible and provide a great experience.
 
 #### Data sources:
-   * vgsales.csv link:https://www.kaggle.com/gregorut/videogamesales
-   * steam-200k.csv link:https://www.kaggle.com/tamber/steam-video-games
-   * metacritic_games.csv link:https://www.kaggle.com/skateddu/metacritic-games-stats-20112019
+   * RAWG Database:One of the largest video game databases, API : https://rawg.io/apidocs 
  
 ### Success Criteria
 #### Machine Learning metrics constituiting success:
- * For recommender techniques, we would look at user-centric metrics such as satisfaction, diversity, novelty and seredipity.A survey will be taken of the user, he/she will give scores to the recommendations out of 10. Looking for on an average atleast a score of 6+ for each metric. 
- * For game profile clustering, we would like first determine number of clusters based on Pseudo F1 score, Silhoutte metric and reduction of SSE(SSE below 0.6).Then we would determine how relevant are those cluster profiles based on the question at hand i.e. the user's interest.
-#### Business metrics constituiting success:
- * If the number of users who downloaded the application are greater than 500,000 
- * If the number of users who use the application are greater than 50,000.
+ * For recommender techniques (Alternating Least Squares), we would like to compute a Root Mean Square Error and Mean Absolute Error of less than 0.4. 
+ * For K-means clustering, we would like first determine number of clusters based on Pseudo F1 score, Silhoutte metric and reduction of SSE(SSE below 0.6).
+ 
+#### Business metrics 
+constituiting success:
+ * If the number of users sessions are greater than 50,000 
  * If 60% of the users return to the application(implicit success).
- * If 50% of the users provide a rating to the application that is positive(explicit success).
- * If the time spent on the website in one session is atleast 5 minutes.
+ * If more than 3000 of the users provide a rating to the application that is positive(explicit success).
+
 
 ## Sprint Plan
 
@@ -41,7 +40,7 @@ This application will prompt users to fill in their favorite game that they like
   * Story 1: Identify and Shortlist relevant data.(Week 1) - Done
   * Story 2: Understand the data dictionary from the resources.(Week 1)-Done
  * Epic 2: Data integration and cleaning.(Week 1 and 2) - Done
-   * Story 1: Create a clean datasets(sales,steam,metacritic) using raw data.(Week 1)-Done
+   * Story 1: Create a clean datasets - rawgapi using raw data.(Week 1)-Done
    * Story 2: Remove data errors, duplicated missing values and transform data.(Week 2)-Done
   
 ### Initiative 2: Preliminary analysis, exploration and model building.
@@ -49,75 +48,78 @@ This application will prompt users to fill in their favorite game that they like
   * Story 1: Identify top publishers, games with high score and rating.(Week 3,4) - Done
   * Story 2: Identify which genre is the most popular and look at overall sales and continent wise sales. (Week 3,4)- Done
 * Epic 2: Feature Engineering and Selection.(Week 3,4)-Done
-* Epic 3: Clustering of numerical data.(Week 7)-Pending(Depends on time)
-  * Story 1: Scale the features and transform if required.(Week 7)-Pending
-  * Story 2: Identify clustering technique: K-means, Hierarchial Clustering, GMMs or Mean Isoshift methods.(Week 7)-Pending
-  * Story 3: Develop and profile clusters and understand item profiles.(Week 7)-Pending
-* Epic 4: Recommender System building.(Week 7,8)-Pending
-  * Story 1: Identifying which algorithm to use - Item-Item collaborative filtering, Item based recommender or truncated SVDs.(Week 7,8)-Pending
-* Epic 5: Recommend Popular, novel games and similar users to the users preference.(Week 7,8)-Pending
-* Epic 6: Iterate through the model again and validate.(Week 7,8) Pending
+* Epic 3: Clustering of numerical data.(Week 7)-Done - Didn't use this approach
+  * Story 1: Scale the features and transform if required.(Week 7)-Done
+  * Story 2: Identify clustering technique: K-means, Hierarchial Clustering, GMMs or Mean Isoshift methods.(Week 7)-Done
+  * Story 3: Develop and profile clusters and understand item profiles.(Week 7)-ICEBOX
+* Epic 4: Recommender System building.(Week 7,8)-Done
+  * Story 1: Identifying which algorithm to use - Item-Item collaborative filtering,Alternating least squares or truncated SVDs.(Week 7,8)-Done
+* Epic 5: Recommend Popular, novel games and similar users to the users preference.(Week 7,8)-ICEBOX
+* Epic 6: Iterate through the model again and validate.(Week 7,8) Done
 
 ### Initiative 3: Creation of the Application.
 * Epic 1: Construct SQL databases.(Week 5)-Done
-   * Story 1: SQL Database storing all the data for the relevant to the application.(Week 5)- Done
-   * Story 2: Construct another SQL database that will store gamer profiles and previous recommendations to be used later.(Week 5)- Done
-* Epic 2: Design and build user interface.(Week 8,9)-Pending
-   * Story 1: Iterate through ideas using a wireframe for the landing page.(Week 8,9)-Pending
-   * Story 2: Creating the landing page of application.(Week 8,9)-Pending
-   * Story 3: Design user interface and input layout.(Week 8,9)-Pending
-   * Story 4: Creating a gamer profile survey.(Week 8,9)-Pending
-   * Story 5: Building a gamer motivation chart.(Week 8,9)-Pending
+   * Story 1: SQL Database storing all the data for the relevant to the application.(Week 5)- ICEBOX
+   * Story 2: Construct a SQL database that will store user's favorite game and 10 recommendations.(Week 5)- Done
+* Epic 2: Design and build user interface.(Week 8,9)-Done
+   * Story 1: Iterate through ideas using a wireframe for the landing page.(Week 8,9)-Done
+   * Story 2: Creating the landing page of application.(Week 8,9)-Done
+   * Story 3: Design user interface and input layout.(Week 8,9)-Done
+   * Story 4: Creating a gamer profile survey.(Week 8,9)-Done
+   * Story 5: Building a gamer motivation chart.(Week 8,9)-ICEBOX
 * Epic 3: Use S3 to store raw data on AWS.(Week 5)-Done
-* Epic 4: Configure Flask App and develop the Flask App.(Week 9)-Pending
+* Epic 4: Configure Flask App and develop the Flask App.(Week 9)-Done
 
 ### Initiative 4: Software testing and application development
-* Epic 1: Deploy the best model after testing which works better.(Week 9)-pending
-* Epic 2: Build unit and logging tests to evaluate functionality.(Week 7,8,9)-Pending
-* Epic 3: Design and conduct A/B tests to evaluate application versions.(Week 9)-pending
-* Epic 4: Running Application in Docker.(Week 9)-pending
+* Epic 1: Deploy the best model after testing which works better.(Week 9)-Done
+* Epic 2: Build unit and logging tests to evaluate functionality.(Week 7,8,9)-Done
+* Epic 3: Design and conduct A/B tests to evaluate application versions.(Week 9)-ICEBOX
+* Epic 4: Running Application in Docker.(Week 9)-Done
    * Story 1: Build Image.
    * Story 2: Run container.
-* Epic 5: Finalize Application.(Week 9)-pending
+* Epic 5: Finalize Application.(Week 9)-Done
 
 ## Backlog
 * Initiative1->Epic1(Done)
 * Initiative2->Epic1->Story1(Done)
 * Initiative2->Epic1->Story2(Done)
-* Initiative3->Epic1(Done)
 * Initiative3->Epic3(Done)
-* Initiative2->Epic4(Planned)
-* Initiative2->Epic5(Planned)
-* Initiative2->Epic6(Planned)
-* Initiative4->Epic1,Epic2,Epic4,Epic5(Planned)
+* Initiative1->Epic2(Done)
+* Initiative2->Epic1.Story3(Done)
+* Initiative2->Epic2(Done)
+* Initiative2->Epic3(Done
+* Initiative2->Epic4(Done)
+* Initiative2->Epic5(Done)
+* Initiative2->Epic6(Done)
+* Initiative4->Epic1,Epic2,Epic5(Done)
 
 ## Icebox
-* Initiative1->Epic2(Progress)
-* Initiative2->Epic1.Story3(Deciding)
-* Initiative2->Epic2
-* Initiative2->Epic3
+*  Initiative2->Epic3->Story3
 * Initiative2->Epic5
-* Initiative3->Epic2,3(Depends on Tool learnt)
+* Initiative3->Epic1->Story1
+* Initiative3->Epic2->Story4
+* Initiative4->Epic3
 
 # MSiA423 GameExplorer Repository
 
 <!-- toc -->
 
 - [Directory structure](#directory-structure)
-- [Running the app](#running-the-app)
-  * [1.Clone this repository-development](#1-clone-this-repository-development)
-  * [2.Data Acquisition](#2-data-acquisition) 
-  * [3.Setup environment variables](#3-setup-environment-variables)
-  * [4.Set configurations](#4-set-configurations) 
-  * [5.Store data to s3](#5-store-data-to-s3)
-  * [6.Initialize database](#6-initialize-database)
-  * [7. Configure Flask app](#7-configure-flask-app)
-  * [8. Run the Flask app](#8-run-the-flask-app)
-- [Running the app in Docker](#running-the-app-in-docker)
-  * [1. Build the image](#1-build-the-image)
-  * [2. Run the container](#2-run-the-container)
-  * [3. Kill the container](#3-kill-the-container)
-  * [Workaround for potential Docker problem for Windows.](#workaround-for-potential-docker-problem-for-windows)
+- [Running the Model Pipeline](#running-the-model-pipeline)
+- [Running the Flask App](#running-the-flask-App)
+- [Running Unit Tests](#running-unit-tests)
+- [Configurations](#configurations)
+ * [Configure environment variables](#configure-environment-variables)
+ * [Configure database connection string](#configure-database-connection-string)
+ * [Configure S3 bucket](#configure-s3-bucket)
+- [Running Model Pipeline Individual Steps](#running-model-pipeline-individual-steps)
+ * [Ingest data from source and upload to S3 bucket](#ingest-data-from-source-and-upload-to-S3-bucket)
+ * [Clean and featurize data](#clean-and-featurize-data)
+ * [Train model](#train-model)
+ * [Score model](#score-model)
+- [Running MySQL Database in terminal](#running-mysql-database-in-terminal)
+ * [Configure MySQL environment variables](#configure-mysql-environment-variables)
+ * [Run MySQL in Docker](#run-my-sql-in-docker)
 
 <!-- tocstop -->
 
@@ -133,28 +135,25 @@ This application will prompt users to fill in their favorite game that they like
 ├── config                            <- Directory for configuration files 
 │   ├── local/                        <- Directory for keeping environment variables and other local configurations that *do not sync** to Github 
 │   ├── logging/                      <- Configuration of python loggers
-│   ├── config.py                     <- Configuration of file paths, decision variables,file names.
-|   ├── config.env                    <- Configuration of Secret Keys
-│   ├── flaskconfig.py                <- Configurations for Flask API 
+│   ├── config.py                     <- Configuration of file paths, decision variables,file names, flask configurations
+│   ├── config.yaml	              <- Some file paths, URL endpoint, S3 bucket name,model hyperparameters, and columns used and dropped 
 |
-├── data                              <- Folder that contains data used or generated. Only the external/,sample/,clean/ subdirectories are tracked by git. 
-|   ├── clean/                         <- Cleaned data files, will be synced with git
+├── data                              <- Folder that contains data used or generated. Only the external/,sample/ and customers.db subdirectories are tracked by git. 
 │   ├── external/                     <- External data sources, usually reference data,  will be synced with git
 │   ├── sample/                       <- Sample data used for code development and testing, will be synced with git
-|  
+|   ├── customers.db		      <- Local SQL database
 ├── deliverables/                     <- Any white papers, presentations, final work products that are presented or delivered to a stakeholder 
 │
 ├── docs/                             <- Sphinx documentation based on Python docstrings. Optional for this project. 
 │
 ├── figures/                          <- Generated graphics and figures to be used in reporting, documentation, etc
 │
-├── models/                           <- Trained model objects (TMOs), model predictions, and/or model summaries
+├── models/                           <- Trained model objects (joblib filetype), model predictions, and/or model summaries
 │
 ├── notebooks/
 │   ├── archive/                      <- Develop notebooks no longer being used.
 │   ├── deliver/                      <- Notebooks shared with others / in final state
 │   ├── develop/                      <- Current notebooks being used in development.
-│   ├── template.ipynb                <- Template notebook for analysis with useful imports, helper functions, and SQLAlchemy setup. 
 │
 ├── reference/                        <- Any reference material relevant to the project
 │
@@ -163,361 +162,268 @@ This application will prompt users to fill in their favorite game that they like
 ├── test/                             <- Files necessary for running model tests (see documentation below) 
 │
 ├── app.py                            <- Flask wrapper for running the model 
-├── create_db.py                      <- Creates the video game database schema and populates data into it.
-├── Dockerfile                        <- Docker file to build image video_games and run app
-├── run.py                            <- Simplifies the execution of one or more of the src scripts - stores data in s3 bucket
+├── create_database.py                <- Creates the customers database schema
+├── Dockerfile                        <- Docker file to build image games and run pipeline, app and tests
+├── Makefile			      <- Makefile to sequentially run pipeline, app and tests
+├── README.md                         <- Detailed instructions to run pipeline, app and tests
 ├── requirements.txt                  <- Python package dependencies 
 ├── run_mysql_client.sh               <- Runs interactive sql server based on host,username,password.
+├── run_pipeline.py		      <- wrapper that runs pipeline with optional user commands
+├── run_write_data_s3.py	      <- wrapper that fetches data from api and writes to s3 bucket
 ```
 
-## Running the app
-### 1.Clone this repository-development
-Run the following command:
+## Running the Model Pipeline
+### Note :Please be connected to the northwestern VPN throughout if possible(for RDS instance atleast)
+Creates all artifacts needed to support the web application.
 
-    git clone https://github.com/aditya9729/2020-msia423-gudal-gamexplorer.git
-    
-Once cloned run to switch to the development branch:
+Note: if the data has not already been ingested and uploaded to S3 (or saved locally), in the root of the repository, first run:
+
+	python run_write_data_s3.py
+
+OR
+
+	python run_pipeline.py acquire_from_api
 	
-	git checkout development
+	python run_pipeline.py write_to_s3
+	
 
-### 2.Data Acquisition
-Data sources - Kaggle static files:
-   * vgsales.csv link:https://www.kaggle.com/gregorut/videogamesales
-   * steam-200k.csv link:https://www.kaggle.com/tamber/steam-video-games
-   * metacritic_games.csv link:https://www.kaggle.com/skateddu/metacritic-games-stats-20112019
- 
-Steps to follow:
+### Running locally
 
-   * Download these files and unzip these files till you get comma separated value files.
-   * Store these files within ./data/external/.
-   * When you run the `create_db.py` file later, it will store cleaned data in ./data/clean/
-   * Please create the clean and external directory within the data directory.
-   * It should be ./data/clean and ./data/external
-   * If you want to recreate the file storage(when there is no external and clean directory) -
-    Run the following:
+In the root of the repository, run:
+
+	make pipeline
+	
+### Running in Docker
+
+#### Step 1: Build Docker image
+
+	docker build -t games .
+
+#### Step 2: Produce all model pipeline artifacts
+
+Note you will need to set your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY credentials in the following command line argument.
+
+	docker run -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY --mount type=bind,source=$(pwd),target=/app/ games pipeline
+	
+Alternatively, you can set the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY credentials in a config.env file in the config/ directory.
+
+	docker run -env-file=config/config.env --mount type=bind,source=$(pwd),target=/app/ games pipeline
+
+## Running the Flask App
+
+### Running Locally
+
+#### Step: Run the app
+
+	python app.py
+	
+### Running in Docker
+
+Step 1: Build the Docker image
+
+	docker build -t games .
+	
+Step 2: Run the app 
+
+First please put in SQLALCHEMY_DATABASE_URI as an environment variable for local database: sqlite:///data/customers.db
+
+For RDS database use: {dialect}://{user}:{pw}@{host}:{port}/{db} fill in the details here and remove { }
+
+	docker run -e SQLALCHEMY_DATABASE_URI --mount type=bind,source=$(pwd),target=/app/ -p 5000:5000 games app
+	
+You should now be able to access the app at http://0.0.0.0:5000/ in your browser.
+
+For windows use http://127.0.0.1:5000/
+
+### Notes on the Database
+
+The database can be configured by specifying a connection string as the SQLALCHEMY_DATABASE_URI environment variable.
+By default, if SQLALCHEMY_DATABASE_URI is not provided as an environment variable, and if the MYSQL_HOST is provided as an environment variable, an RDS database will be used to store the user responses (given that MYSQL_USER and MYSQL_PASSWORD and MYSQL_PORT and MYSQL_DATABASE are also provided)
+If MYSQL_HOST is not provided as an environment variable, then a local SQLite database in the /data folder is used to store the user responses 
+
+## Running Unit Tests
+
+### Running Locally
+
+In the root of the repository, run:
+
+	make tests
+	
+Running in Docker
+
+Step 1: Build the Docker image (can use the same Docker image as the model pipeline if already built). If the Docker image for the model pipeline has already been built, you can skip this step.
+
+	docker build -t games .
+	
+Step 2: Run the tests
+
+	docker run games tests
+
+### Configurations
+1. Configure environment variables
+Two sets of environment variables are required to run the model pipeline and the web application using an RDS database:
+
+AWS credentials for the model pipeline, to upload / download files from S3:
+AWS_SECRET_ACCESS_KEY
+AWS_ACCESS_KEY_ID
+
+MySQL credentials for the web application, to store user data in an RDS database:
+MYSQL_USER
+MYSQL_PASSWORD
+MYSQL_HOST
+MYSQL_PORT
+MYSQL_DATABASE
+
+If MySQL credentials are not exported as environment variables, the application will use the local SQLite database in the data directory
+
+### Running locally
+
+Ensure AWS credentials are in the ~/.aws/credentials file.
+
+Export MySQL credentials by running the following commands (replacing brackets <> with your own credentials):
+
+	export MYSQL_USER=<your-MySQL-user>
+	export MYSQL_PASSWORD=<your-MYSQL-password>
+	export MYSQL_HOST=<your-MySQL-host>
+	export MYSQL_PORT=<your-MySQL-port>
+	export MYSQL_DATABASE=your-MySQL-database>
+	
+Running in Docker
+
+The environment variables can be exported in the docker run command via the -e VAR=val flag for each environment variable (see Running Model Pipeline in Docker).
+
+Alternatively create a file called config.env file within the config/ path to store the environment variables, which will be exported to the Docker container when the scripts are executed:
+
+To create the config.env file, from the root directory, run:
+
+	vi config/config.env
+	
+Copy the code below into the config.env file and replace the bracketed <> fields with your credentials):
+
+#### AWS credentials
+
+	AWS_SECRET_ACCESS_KEY=<your-AWS-secret-access-key>
+	AWS_ACCESS_KEY_ID=<your-AWS-access-key-id>
+
+#### MySQL credentials
+
+	MYSQL_USER=<your-MySQL-user>
+	MYSQL_PASSWORD=<your-MYSQL-password>
+	MYSQL_HOST=<your-MySQL-host>
+	MYSQL_PORT=<your-MySQL-port>
+	MYSQL_DATABASE=<your-MySQL-database-name>
+	
+Then, add --env-file=config/config.env after the applicable docker run statement to export the environment variables Docker.
+
+2. Configure database connection string
+
+Local MySQL
+
+The default database name is customersdb . This default can be modified in the config.py script:
+
+	SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
+	if SQLALCHEMY_DATABASE_URI is not None:
+        pass
+    elif host is None:
+        SQLALCHEMY_DATABASE_URI = 'sqlite:///data/customers.db'
+    elif host:
+        SQLALCHEMY_DATABASE_URI = '{dialect}://{user}:{pw}@{host}:{port}/{db}'.format(dialect=connection_type, user=user,
+                                                                                  pw=password, host=host, port=port,
+                                                                                  db=database)
    
-    cd ./data
-    mkdir external
-    mkdir clean
-    cd external
-   * Within external directory store the files acquired and rename them.
-        * Rename 'steam-200k.csv' to 'steam.csv'.
-        * Rename 'vgsales.csv' to 'sales.csv'.
-        * Rename 'metacritic_games.csv' to 'metacritic.csv'.
+Local SQLite
+To change the default local file path where the SQLite database is created, modify DATABASE_PATH variable in the config.py file. for populating change SQLALCHEMY_DATABASE_URI.
+where HOME is the root of the directory. The DATBASE_PATH should be an absolute path, not a relative path.
+
+3. Configure S3 bucket
+To change the default S3 bucket for which files are uploaded and downloaded from, modify the S3_BUCKET variable in config.py. The S3 bucket specification can also be passed in as a command line argument (see Ingest data from source and upload to S3 bucket)
+
+### Running Model Pipeline Individual Steps
+All scripts should be executed by running python run.py <arg> in the root of the repository, where <arg> specifies the step in the model pipeline to execute. Details on the pipeline and arguments to pass are below.
+
+1. Ingest data from source and upload to S3 bucket
+To import data from the source URL (source here), run:
+
+	python run_pipeline.py acquire_from_api --config=config/config.yaml
+	
+	python run_pipeline.py write_to_s3 --config=config/config.yaml
+	
+2. Fetch data from S3, run:
+		
+		python run_pipeline.py acquire_from_s3 --config=config/config.yaml
+		
+The data will be games_data.pkl stored in the /data/external folder
+
+2. Clean and featurize raw data
+To clean and pre-process, featurize the raw data file, run:
+
+	python run_pipeline.py featurize --config=config/config.yaml
+	
+The clean data features numpy array and intermediate required data will by default be saved locally in the /data/external folder.
+
+Optional argument flags / configurations
+
+   * --input: input data file path
+   * --output: to specify the file path to store output to.
+
+3. Train model
+To created the trained model objects, model artifacts (e.g., encoders, scalers), and results, run:
+
+	python run_pipeline.py train --config=config/config.yaml
+The trained model object, encoder, and scalers PKL files will by default be saved locally in the models/ folder.
+
+Optional argument flags / configurations
+
+   * --input: to specify the file path + name of the features npy file
+   * --output: to specify the file path where the model artifacts are output -joblib file. Must be a folder path and not file name.
+
+4.Score model 
+To score model and store metrics run:
+
+	python run_pipeline.py score --config=config/config.yaml
+
+	
+### Tests (Optional)
+within tests you have 
+* test_model that conatins a model artifact(joblib file) to test on.
+* test_functions - helpers for testing basically all the functions from src.
+* test_datasets - data required(from data/external/), in the code a sample is used
+
+In the test folder run:
+
+	pytest run_tests.py
+	
+### Running MySQL in Command Line (Optional)
+
+#### Note make sure you are on the Northwestern VPN
+Once the RDS table has been created, you can access the database via MySQL in the command line.
+
+1. Configure MySQL environment variables
+First, configure environment variables by either:
+
+Exporting the variables directly in the command line by running the following commands:
+
+	export MYSQL_USER=<your-MySQL-user>
+	export MYSQL_PASSWORD=<your-MYSQL-password>
+	export MYSQL_HOST=<your-MySQL-host>
+	export MYSQL_PORT=<your-MySQL-port>
+	export MYSQL_DATABASE=<your-database-name>
+	
+Creating a .mysqlconfig file via command vi .mysqlconfig in the root of the repository to store the code above:
+
+	export MYSQL_USER=<your-MySQL-user>
+	export MYSQL_PASSWORD=<your-MYSQL-password>
+	export MYSQL_HOST=<your-MySQL-host>
+	export MYSQL_PORT=<your-MySQL-port>
+	export MYSQL_DATABASE=<your-database-name>
+	
+Then, run the following in command line to export the environment variables:
+
+	echo 'source .mysqlconfig' >> ~/.bashrc
+
+	source ~/.bashrc
+2. Run MySQL in Docker
+Access the RDS table via MySQL in command line by executing the following:
+
         
-### 3.Setup environment variables
-Note: You will need to be on the Northwestern VPN.
-
-Make sure you are in the root directory.
-
-You may skip this part but this may be helpful:
-
-Part1 is to create environment/ you can also run requirements.txt separately.  
-Go to part 2 to set up variables for MYSQL
-
-Part 1: Note: pip may not run within conda at times - Go to part 2 to set up variables for MYSQL
-requirements.txt may not run as pip may not be installed within conda(path not set).
-
-Create your own virtual environment.
-
-    conda create --name video_game pip
-    
-or use 
-    
-    virtualenv video_game 
-
-Activate virtual environment.
-
-    conda activate video_game
-or use:
-    
-    source video_game
-    
-Note: If you are in a virtual or base environment run the following:
-
-    pip install -r requirements.txt
-
-Part2:
-
-Edit your mysql config file accordingly
-
-    vi .mysqlconfig
-or use 
-
-    nano .mysqlconfig
-
-* Set MYSQL_USER to the "master username" that you used to create the database server.
-* Set MYSQL_PASSWORD to the "master password" that you used to create the database server.
-* Set MYSQL_HOST to be the RDS instance endpoint from the console
-* Set MYSQL_PORT to be 3306
-* SET DATABASE_NAME as the name of your rds instance if required
-
-Set up using the following within .mysqlconfig(please remove the caret '<' '>' signs:
-
-    export MYSQL_USER=<YOUR_USERNAME>
-    export MYSQL_PASSWORD=<YOUR_PASSWORD>
-    export MYSQL_HOST=<PASTE_YOUR_HOST_HERE>
-    export MYSQL_PORT=<3306>
-    export DATABASE_NAME=msia423asg5718
-
-
-Set the environment variables in your ~/.bashrc
-
-    echo 'source .mysqlconfig' >> ~/.bashrc
-
-    source ~/.bashrc
-    
-PLEASE NOTE: VERIFY THAT YOU ARE ON THE NORTHWESTERN VPN BEFORE YOU CONTINUE ON.        
-
-* SET AWS_ACCESS_KEY with your aws access key.
-* SET AWS_SECRET_KEY with you aws secret key.
-
-Run the following commands and replace xxxx with keys etc.
-
-    nano ~/.bashrc
-Note you may find 'source .mysqlconfig' already, leave it untouched.
-
-    export AWS_ACCESS_KEY=xxxx
-    export AWS_SECRET_KEY=xxxxx
-    source .mysqlconfig
-Don't forget to source:
-
-    source ~/.bashrc
-Create environments variables for docker:
-
-    cd config
-Open config.env file
-
-    nano config.env
-Set credentials - replace the xxx here too :
-
-    AWS_SECRET_KEY=xxxxxxxxxxxxxxxxx
-    AWS_ACCESS_KEY=xxxxxxxxxx
-
-
-### 4.Set configurations:
-Go to config.py in the config directory:
-
-    cd config/ 
-    
- Within `config.py` Please change the following bucket name with your own bucket name.: 
- 
-    S3_BUCKET_NAME = 'nw-adityagudal-s3'
-    
-To create local SQLlite schema let the variable `local` be as is, currently it is:
-    
-    local=True
- 
-To create RDS instance change the variable `local`:
-     
-     local=False
-
-### 5. Store data into S3
-
-First check step 3 and 4, make sure your:
-   * Environment variables are set.
-   * Requirements and dependencies are met.
-   * Set configurations in config.py
-   
-Set your bucket name in `config.py` within config directory.
-
-Go to the root directory and Run the following:
-
-  * Build a docker image with tag games:
-  
-  		docker build -t games .
-
-   * Run the docker container:
-   
-    docker run --env-file=config/config.env games run.py
-
-    
-Note this `run.py` depends on `src/store_data_in_s3.py`
-
-This should store your data into the S3 bucket.
-
-### 6. Initialize the database 
-
-#### Create the database with tables
- First check step 3 and 4, make sure your:
-   * Environment variables are set.
-   * Requirements and dependencies are met.
-   * Set configurations in config.py
- 
-To create the database in the location configured in `config.py` with tables customer,metacritic,sales and steam, run: 
-
-To create a database locally use make sure to set `local=True` in `config.py`:
-
-Note `create_db.py` depends on `src/clean_data.py` `src/helpers.py` and `src/game_database.py`
-
-Go to the root directory and run:
-
-    python create_db.py
-
-By default, `python create_db.py ` with `local=True` creates a database at `sqlite:///data/games.db` with the tables customer, metacritic, sales and steam.
-
-#### Defining your engine string 
-A SQLAlchemy database connection is defined by a string with the following format:
-
-`dialect+driver://username:password@host:port/database`
-
-The `+dialect` is optional and if not provided, a default is used. For a more detailed description of what `dialect` and `driver` are and how a connection is made, you can see the documentation [here](https://docs.sqlalchemy.org/en/13/core/engines.html). 
-##### Local SQLite database 
-
-A local SQLite database can be created for development and local testing. It does not require a username or password and replaces the host and port with the path to the database file: 
-
-```python
-engine_string='sqlite:///data/games.db'
-```
-
-##### RDS Instance database:
-
-Make sure you are connected to northwestern vpn
-
-Go to step 3 and 4 and check environment variables and requirement.(check database name)
-
- Go to the config directory and in `config.py` change local variable:
-    
-    local=False
- 
- Go to the root directory and create the rds instance database schema by running:
-       
-    python create_db.py
- 
- You may see a warning command here - invalid String in Game - there are games with special characters.
- PyMySQL cannot decode them but sqlite3 can.
- 
- Your data is now in the database, with the schema defined, and the raw data has also been added to your S3 bucket! If you've used an RDS instance, you can verify that things have worked as expected by using the MySQL client. Run the `run_mysql_client.sh` script that allows connection to your SQL database:
- 
- In the root directory run (for mac users):
- 
-    sh run_mysql_client.sh
-    
- For windows in git bash run:
- 	
-	winpty sh run_mysql_client.sh
-
- You can query the customer, steam, metacritic and sales table in the `msia423asg5718` database as follows:
-    
-    use msia423asg5718;
-    
-Check if the 4 tables are there:
-    
-    show msia423asg5718;
-Output is as follows:
-    
-    +--------------------------+
-    | Tables_in_msia423asg5718 |
-    +--------------------------+
-    | customer                 |
-    | metacritic               |
-    | sales                    |
-    | steam                    |
-    +--------------------------+
-    4 rows in set (0.04 sec)
-
-Now run the following to check the steam table:
-    
-    SELECT * FROM steam LIMIT 5;
- 
-The output of the query is the following, do validate:
-
-    +----+-----------+----------------------------+----------+
-    | id | Userid    | Game                       | Playtime |
-    +----+-----------+----------------------------+----------+
-    |  1 | 151603712 | The Elder Scrolls V Skyrim |      273 |
-    |  2 | 151603712 | Fallout 4                  |       87 |
-    |  3 | 151603712 | Spore                      |     14.9 |
-    |  4 | 151603712 | Fallout New Vegas          |     12.1 |
-    |  5 | 151603712 | Left 4 Dead 2              |      8.9 |
-    +----+-----------+----------------------------+----------+
-    5 rows in set (0.04 sec)
-
-Do validate this with the other tables as well!
-
-To exit mysql:
-    
-    exit;
- 
- To exit environment if in one:
- 
-    deactivate video_game_recommender
-----------------------------------------------------------------------------------
-
-
-### 5. Configure Flask app 
-
-`config/flaskconfig.py` holds the configurations for the Flask app. It includes the following configurations:
-
-```python
-DEBUG = True  # Keep True for debugging, change to False when moving to production 
-LOGGING_CONFIG = "config/logging/local.conf"  # Path to file that configures Python logger
-HOST = "0.0.0.0" # the host that is running the app. 0.0.0.0 when running locally 
-PORT = 5000  # What port to expose app on. Must be the same as the port exposed in app/Dockerfile 
-SQLALCHEMY_DATABASE_URI = 'sqlite:///data/tracks.db'  # URI (engine string) for database that contains tracks
-APP_NAME = "penny-lane"
-SQLALCHEMY_TRACK_MODIFICATIONS = True 
-SQLALCHEMY_ECHO = False  # If true, SQL for queries made will be printed
-MAX_ROWS_SHOW = 100 # Limits the number of rows returned from the database 
-```
-
-### 3. Run the Flask app 
-
-To run the Flask app, run: 
-
-```bash
-python app.py
-```
-
-You should now be able to access the app at http://0.0.0.0:5000/ in your browser.
-
-## Running the app in Docker 
-
-### 1. Build the image 
-
-The Dockerfile for running the flask app is in the `app/` folder. To build the image, run from this directory (the root of the repo): 
-
-```bash
- docker build -f app/Dockerfile -t pennylane .
-```
-
-This command builds the Docker image, with the tag `pennylane`, based on the instructions in `app/Dockerfile` and the files existing in this directory.
- 
-### 2. Run the container 
-
-To run the app, run from this directory: 
-
-```bash
-docker run -p 5000:5000 --name test pennylane
-```
-You should now be able to access the app at http://0.0.0.0:5000/ in your browser.
-
-This command runs the `pennylane` image as a container named `test` and forwards the port 5000 from container to your laptop so that you can access the flask app exposed through that port. 
-
-If `PORT` in `config/flaskconfig.py` is changed, this port should be changed accordingly (as should the `EXPOSE 5000` line in `app/Dockerfile`)
-
-### 3. Kill the container 
-
-Once finished with the app, you will need to kill the container. To do so: 
-
-```bash
-docker kill test 
-```
-
-where `test` is the name given in the `docker run` command.
-
-### Workaround for potential Docker problem for Windows.
-
-It is possible that Docker will have a problem with the bash script `app/boot.sh` that is used when running on a Windows machine. Windows can encode the script wrongly so that when it copies over to the Docker image, it is corrupted. If this happens to you, try using the alternate Dockerfile, `app/Dockerfile_windows`, i.e.:
-
-```bash
- docker build -f app/Dockerfile_windows -t pennylane .
-```
-
-then run the same `docker run` command: 
-
-```bash
-docker run -p 5000:5000 --name test pennylane
-```
-
-The new image defines the entry command as `python3 app.py` instead of `./boot.sh`. Building the sample PennyLane image this way will require initializing the database prior to building the image so that it is copied over, rather than created when the container is run. Therefore, please **do the step [Create the database with a single song](#create-the-database-with-a-single-song) above before building the image**.
+     sh run_mysql_client.sh

@@ -2,7 +2,7 @@ import os
 import sqlalchemy as sql
 from sqlalchemy import Integer, String, Column
 from sqlalchemy.ext.declarative import declarative_base
-from config import changeable_config
+from config import config
 import logging.config
 import sys
 
@@ -47,16 +47,16 @@ def create_database(local):
 
     # define engine string
     if local:
-        LOCAL_PATH = changeable_config.DATABASE_PATH
+        LOCAL_PATH = config.DATABASE_PATH
         engine_string = 'sqlite:///' + str(LOCAL_PATH)
 
     else:
-        conn_type = changeable_config.connection_type
-        user = changeable_config.user
-        password = changeable_config.password
-        host = changeable_config.host
-        port = changeable_config.port
-        database = os.environ.get("DATABASE_NAME")
+        conn_type = config.connection_type
+        user = config.user
+        password = config.password
+        host = config.host
+        port = config.port
+        database = config.database
         engine_string = "{}://{}:{}@{}:{}/{}".format(conn_type, user, password, host, port, database)
 
     #create engine

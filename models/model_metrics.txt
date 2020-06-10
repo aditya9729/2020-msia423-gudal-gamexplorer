@@ -1,3 +1,0 @@
-Mean squared error on testing :0.23904572242293903
-Root Mean squared error on testing :0.48892302300355933
-Mean absolute error on testing :0.44054507683266086

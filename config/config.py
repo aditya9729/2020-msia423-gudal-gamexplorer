@@ -12,8 +12,30 @@ SQLALCHEMY_ECHO = True  # If true, SQL for queries made will be printed
 MAX_ROWS_SHOW = 100
 
 # Database engine Connection string
-SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
 
+# For CREATING Local Database connection config
+local=True # change this for local sqlite vs rds instance database, don't forget to set env variables see above
+PROJECT_HOME = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # change be changed
+DATABASE_PATH = os.path.join(PROJECT_HOME, 'data/customers.db')# name is customers.db by default
+
+
+# RDS instance Database configurations
+connection_type="mysql+pymysql" # for rds
+user = os.environ.get("MYSQL_USER")
+password = os.environ.get("MYSQL_PASSWORD")
+host = os.environ.get("MYSQL_HOST")
+port = os.environ.get("MYSQL_PORT")
+database = os.environ.get("MYSQL_DATABASE")
+
+SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
+if SQLALCHEMY_DATABASE_URI is not None:
+    pass
+elif host is None:
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///data/customers.db'
+elif host:
+    SQLALCHEMY_DATABASE_URI = '{dialect}://{user}:{pw}@{host}:{port}/{db}'.format(dialect=connection_type, user=user,
+                                                                                  pw=password, host=host, port=port,
+                                                                                  db=database)
 SAVE_INTERMEDIATE_PATH='./data/external/intermediate.pkl'
 SAVE_MODEL_PATH='./models/als_model.joblib'
 
@@ -25,19 +47,6 @@ AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 RAW_DATA_FOLDER = "./data/external/"
 RAW_DATA_FILENAMES=['games_data.pkl']
 RAW_DATA_WRITE_LOCATION = "./data/external/"
-
-# RDS instance Database configurations
-connection_type="mysql+pymysql" # for rds
-user = os.environ.get("MYSQL_USER")
-password = os.environ.get("MYSQL_PASSWORD")
-host = os.environ.get("MYSQL_HOST")
-port = os.environ.get("MYSQL_PORT")
-database = os.environ.get("MYSQL_DATABASE")
-
-# Local Database connection config
-local=True # change this for local sqlite vs rds instance database, don't forget to set env variables see above
-PROJECT_HOME = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # change be changed
-DATABASE_PATH = os.path.join(PROJECT_HOME, 'data/customers.db')# name is customers.db by default
 
 
 ## Configuration paths for src/featurize.py

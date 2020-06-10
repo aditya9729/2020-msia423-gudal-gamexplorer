@@ -7,7 +7,6 @@ from src.customer_database import Customer
 from config import config
 from src.app_helpers import fuzzy_matching,get_recommendations
 import flask
-import yaml
 from flask_sqlalchemy import SQLAlchemy
 
 # Initialize the Flask application
@@ -36,6 +35,10 @@ def add_entry(games_list):
     try:
         #save to database
         game_names= games_list[1]
+
+        if config.host:
+            logger.info('Host name given,saving to RDS instance')
+
         customer= Customer(favorite_game=request.form['game_name'], reco_game1=game_names[0],reco_game2=game_names[1],
                            reco_game3=game_names[2],reco_game4=game_names[3],reco_game5=game_names[4],reco_game6=game_names[5],
                            reco_game7=game_names[6],reco_game8=game_names[7],reco_game9=game_names[8],reco_game10=game_names[9])
@@ -46,14 +49,14 @@ def add_entry(games_list):
         logger.info("New customer recommendation added, with fav game: %s", request.form['game_name'])
 
     except Exception as e:
-        logger.warning("Not able to display recommendations, error page returned")
+        logger.warning("Not able to add recommendations, either error page returned or check SQLALCHEMY_DATABASE_URI")
 
 
 
 # Set up the main route
 @app.route('/', methods=['GET', 'POST'])
 def main():
-    """Runs the App and renders the positive or index template"""
+    """Runs the App and renders the index template then positive or error template"""
 
     if request.method == 'GET':
         return (render_template('index.html'))

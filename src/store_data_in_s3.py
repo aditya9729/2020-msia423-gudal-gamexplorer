@@ -4,13 +4,12 @@ import logging
 
 # WRITE DATA TO S3
 def write_to_s3(bucket_name,access_key,secret_key,folder,files):
-	"""
-	Writes data to the s3 bucket or stores in s3
-	:param bucket_name: AWS s3 bucket name
-	:param access_key: AWS access key id
-	:param secret_key: AWS secret key
-	:param folder: Folder containing the files to be uploaded
-	:param files: files to be uploaded
+	"""Writes data to the s3 bucket or stores in s3
+	:param bucket_name `str`: AWS s3 bucket name
+	:param access_key `str`: AWS access key id
+	:param secret_key `str`: AWS secret key
+	:param folder `str`: Folder containing the files to be uploaded
+	:param files `str`: files to be uploaded
 	:return: None
 	"""
 	try:
@@ -20,6 +19,8 @@ def write_to_s3(bucket_name,access_key,secret_key,folder,files):
 		logging.error(" Couldn't find the S3 bucket, check aws credentials and try again",error1)
 
 	files_to_upload= files
+
+	# upload files to s3
 	try:
 		for file in tqdm(files_to_upload):
 			logging.debug('Writing files to S3')

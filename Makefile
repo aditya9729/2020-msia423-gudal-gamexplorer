@@ -10,7 +10,6 @@ data/external/train.npy data/external/test.npy models/als_model.joblib: data/ext
 models/model_metrics.txt: data/external/train.npy data/external/test.npy models/als_model.joblib config/config.yaml
 	python3 run_pipeline.py score --config=config/config.yaml
 
-
 pipeline: data/external/games_data.pkl data/external/intermediate.pkl data/external/features.npy data/external/train.npy data/external/test.npy models/als_model.joblib models/model_metrics.txt
 
 app:

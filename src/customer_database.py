@@ -15,9 +15,7 @@ logger.setLevel("INFO")
 Base = declarative_base()
 
 class Customer(Base):
-    """
-    Creates a datamodel for the customers interacting with the app
-    """
+    """Creates a datamodel for the customers interacting with the app"""
     __tablename__ = 'customers'
     id = Column(Integer, primary_key=True)
     favorite_game = Column(String(100), nullable=False, unique=False)
@@ -38,8 +36,7 @@ class Customer(Base):
 
 
 def create_database(local):
-    """
-    Creates a rds or local sql database schema with tables and populates the data into the tables
+    """Creates a rds or local sql database schema with tables and populates the data into the tables
     :param: local bool - check s3.changeable_config.py - local = True creates and populates local database games.db and persists else creates rds instance db
     :return: None
     """

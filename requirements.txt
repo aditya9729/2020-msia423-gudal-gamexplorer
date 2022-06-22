@@ -21,7 +21,7 @@ urllib3==1.25.9
 wincertstore==0.2
 implicit==0.4.2
 scikit-learn==0.21.2
-numpy==1.18.1
+numpy==1.22.0
 pandas==1.0.3
 requests==2.13.0
 pytest==5.4.3
